@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frases",
+  "info": {
+    "singularName": "frase",
+    "pluralName": "frases",
+    "displayName": "Frase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "publish_status": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
